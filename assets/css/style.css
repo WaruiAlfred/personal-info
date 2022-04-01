@@ -1,10 +1,10 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
-:root{
-  --original-main-color:#18d26e;
-  --main-color:#0F52BA;
-  --midnight--blue:#191970;
+:root {
+  --original-main-color: #18d26e;
+  --main-color: #0f52ba;
+  --midnight--blue: #191970;
 }
 
 body {
@@ -878,6 +878,14 @@ section .container {
   background-color: var(--main-color);
 }
 
+.swiper-slide img{
+  width: 100%;
+  height: 100%;
+}
+/* 
+.portfolio-details-visibility {
+  display: none;
+} */
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/

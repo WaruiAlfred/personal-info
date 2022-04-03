@@ -931,11 +931,11 @@ section .container {
 .contact .info-box .social-links a:hover {
   color: var(--main-color);
 }
-.contact .php-email-form {
+.contact .js-email-form {
   padding: 30px;
   background: rgba(255, 255, 255, 0.08);
 }
-.contact .php-email-form .error-message {
+.contact .js-email-form .error-message {
   display: none;
   background: rgba(255, 255, 255, 0.08);
   background: #ed3c0d;
@@ -943,10 +943,10 @@ section .container {
   padding: 15px;
   font-weight: 600;
 }
-.contact .php-email-form .error-message br + br {
+.contact .js-email-form .error-message br + br {
   margin-top: 25px;
 }
-.contact .php-email-form .sent-message {
+.contact .js-email-form .sent-message {
   display: none;
   background: rgba(255, 255, 255, 0.08);
   background: var(--main-color);
@@ -954,13 +954,13 @@ section .container {
   padding: 15px;
   font-weight: 600;
 }
-.contact .php-email-form .loading {
+.contact .js-email-form .loading {
   display: none;
   background: rgba(255, 255, 255, 0.08);
   text-align: center;
   padding: 15px;
 }
-.contact .php-email-form .loading:before {
+.contact .js-email-form .loading:before {
   content: "";
   display: inline-block;
   border-radius: 50%;
@@ -972,8 +972,8 @@ section .container {
   -webkit-animation: animate-loading 1s linear infinite;
   animation: animate-loading 1s linear infinite;
 }
-.contact .php-email-form input,
-.contact .php-email-form textarea {
+.contact .js-email-form input,
+.contact .js-email-form textarea {
   border-radius: 0;
   box-shadow: none;
   font-size: 14px;
@@ -982,27 +982,27 @@ section .container {
   transition: 0.3s;
   color: #fff;
 }
-.contact .php-email-form input:focus,
-.contact .php-email-form textarea:focus {
+.contact .js-email-form input:focus,
+.contact .js-email-form textarea:focus {
   background-color: rgba(255, 255, 255, 0.11);
 }
-.contact .php-email-form input::-moz-placeholder,
-.contact .php-email-form textarea::-moz-placeholder {
+.contact .js-email-form input::-moz-placeholder,
+.contact .js-email-form textarea::-moz-placeholder {
   color: rgba(255, 255, 255, 0.3);
   opacity: 1;
 }
-.contact .php-email-form input::placeholder,
-.contact .php-email-form textarea::placeholder {
+.contact .js-email-form input::placeholder,
+.contact .js-email-form textarea::placeholder {
   color: rgba(255, 255, 255, 0.3);
   opacity: 1;
 }
-.contact .php-email-form input {
+.contact .js-email-form input {
   padding: 10px 15px;
 }
-.contact .php-email-form textarea {
+.contact .js-email-form textarea {
   padding: 12px 15px;
 }
-.contact .php-email-form button[type="submit"] {
+.contact .js-email-form button[type="submit"] {
   background: var(--main-color);
   border: 0;
   padding: 10px 30px;
@@ -1010,7 +1010,7 @@ section .container {
   transition: 0.4s;
   border-radius: 4px;
 }
-.contact .php-email-form button[type="submit"]:hover {
+.contact .js-email-form button[type="submit"]:hover {
   background: #1541bb;
 }
 @-webkit-keyframes animate-loading {

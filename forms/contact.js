@@ -19,7 +19,7 @@
     const senderEmail = document.getElementById("email").value;
     const subject = document.getElementById("subject").value;
     const message = document.querySelector("textarea").value;
-    console.log(process.env);
+
     sendEmail(sender, senderEmail, subject, message, thisForm);
   });
 

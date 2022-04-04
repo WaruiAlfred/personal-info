@@ -1,3 +1,4 @@
+/*
 (function () {
   "use strict";
 
@@ -26,12 +27,12 @@
   function sendEmail(sender, senderEmail, subject, message, thisForm) {
     console.log(sender, senderEmail, subject, message);
     Email.send({
-      SecureToken: "032a0444-8455-4f1a-87ca-1983d29f22d1",
-      To: "alfredwarui17@gmail.com",
-      From: senderEmail,
+      SecureToken: "2473d7ed-62ee-4180-a8cd-39f9a049c6fa",
+      To: senderEmail,
+      From: "alfredwarui17@gmail.com",
       Subject: subject,
       Body: `Sender: ${sender}
-      Message: ${message}`,
+             <br> Message: ${message}`,
     })
       // .then((message) => alert(message));
       .then((message) => {
@@ -55,3 +56,4 @@
     thisForm.querySelector(".error-message").classList.add("d-block");
   }
 })();
+*/
